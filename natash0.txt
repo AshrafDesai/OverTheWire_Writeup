@@ -1,0 +1,363 @@
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx cat ./-
+
+ cat -- "--spaces in this filename--"
+ Mnk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+cat ...Hiding-From-You
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+file ./-*
+cat -- -file07
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+find . -type f -size 1033c ! -executable
+cat ./maybehere07/.file2
+HwasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+find / -type f -user bandit7 -group bandit6 -size 33c
+cat /var/lib/dpkg/info/bandit7.password
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+cat data.txt | grep "millionth"
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+
+sort data.txt | uniq -u
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+strings data.txt | grep "==="
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+cat data.txt | base64 -d
+The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 12	
+
+bandit12@bandit:~$ mdkir /tmp/ashraf
+Command 'mdkir' not found, did you mean:
+  command 'mdir' from deb mtools (4.0.43-1)
+  command 'mkdir' from deb coreutils (9.4-3ubuntu6.1)
+Try: apt install <deb name>
+bandit12@bandit:~$ mkdir /tmp/ashraf
+bandit12@bandit:~$ cp data.txt /tmp/ashraf
+bandit12@bandit:~$ cd /tmp/ashraf
+bandit12@bandit:/tmp/ashraf$ ls 
+data.txt
+bandit12@bandit:/tmp/ashraf$ xxd -r data.txt > data
+bandit12@bandit:/tmp/ashraf$ file data
+data: gzip compressed data, was "data2.bin", last modified: Tue Oct 14 09:26:06 2025, max compression, from Unix, original size modulo 2^32 564
+bandit12@bandit:/tmp/ashraf$ mv data file.gz
+bandit12@bandit:/tmp/ashraf$ gzip -d file.gz
+bandit12@bandit:/tmp/ashraf$ ls 
+data.txt  file
+bandit12@bandit:/tmp/ashraf$ file file 
+file: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/ashraf$ mv file file.bz2
+bandit12@bandit:/tmp/ashraf$ bzip2 -d file.bz2
+bandit12@bandit:/tmp/ashraf$ ls
+data.txt  file
+bandit12@bandit:/tmp/ashraf$ file file 
+file: gzip compressed data, was "data4.bin", last modified: Tue Oct 14 09:26:06 2025, max compression, from Unix, original size modulo 2^32 20480
+bandit12@bandit:/tmp/ashraf$ mv file file.gz
+bandit12@bandit:/tmp/ashraf$ gzip -d file.gz
+bandit12@bandit:/tmp/ashraf$ file file 
+file: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/ashraf$ mv file file.tar
+bandit12@bandit:/tmp/ashraf$ tar xf file.tar
+bandit12@bandit:/tmp/ashraf$ ls 
+data5.bin  data.txt  file.tar
+bandit12@bandit:/tmp/ashraf$ file data5.bin 
+data5.bin: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/ashraf$ rm file.tar
+bandit12@bandit:/tmp/ashraf$ rm data
+rm: cannot remove 'data': No such file or directory
+bandit12@bandit:/tmp/ashraf$ rm data.txt
+bandit12@bandit:/tmp/ashraf$ mv data5.bin data.tar
+bandit12@bandit:/tmp/ashraf$ tar xf data.tar
+bandit12@bandit:/tmp/ashraf$ ls
+data6.bin  data.tar
+bandit12@bandit:/tmp/ashraf$ filed data
+Command 'filed' not found, did you mean:
+  command 'tiled' from snap tiled (1.11.1-99-gec89c545)
+  command 'tiled' from deb tiled (1.8.2-1)
+  command 'file' from deb file (1:5.45-2)
+  command 'file2' from deb file-kanji (1.1-20)
+  command 'field' from deb rheolef (7.2-3build3)
+See 'snap info <snapname>' for additional versions.
+bandit12@bandit:/tmp/ashraf$ file data6.bin 
+data6.bin: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/ashraf$ mv data6.bin data.bz2
+bandit12@bandit:/tmp/ashraf$ bzip2 -d data.bz2
+bandit12@bandit:/tmp/ashraf$ ls
+data  data.tar
+bandit12@bandit:/tmp/ashraf$ file data
+data: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/ashraf$ mv data data.tar
+bandit12@bandit:/tmp/ashraf$ ls
+data.tar
+bandit12@bandit:/tmp/ashraf$ tar xf data.tar
+bandit12@bandit:/tmp/ashraf$ file data8.bin 
+data8.bin: gzip compressed data, was "data9.bin", last modified: Tue Oct 14 09:26:06 2025, max compression, from Unix, original size modulo 2^32 49
+bandit12@bandit:/tmp/ashraf$ mv data8.bin data.gz
+bandit12@bandit:/tmp/ashraf$ gzip -d data.gz
+bandit12@bandit:/tmp/ashraf$ ls
+data  data.tar
+bandit12@bandit:/tmp/ashraf$ file data
+data: ASCII text
+bandit12@bandit:/tmp/ashraf$ cat data
+The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+bandit12@bandit:/tmp/ashraf$ 
+
+
+
+┌──(root㉿kali)-[/home/kali]
+└─# nano bandit14_key
+                                                                                                                   
+┌──(root㉿kali)-[/home/kali]
+└─# chmod 600 bandit14_key
+                                                                                                                   
+┌──(root㉿kali)-[/home/kali]
+└─# ssh -i bandit14_key bandit14@bandit.labs.overthewire.org -p 2220
+
+cat /etc/bandit_pass/bandit14
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+
+bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+bandit14@bandit:~$ nc localhost 30000
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+Correct!
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+
+bandit15@bandit:~$ ncat --ssl localhost 30001
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+Correct!
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+
+bandit15@bandit:~$ ncat --ssl localhost 30001
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+Correct!
+KskvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+
+
+
+
+
+
+
+
+
+
+
+
+bandit16@bandit:~$ nc localhost 31790
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+bandit16@bandit:~$ 
+bandit16@bandit:~$ ncat --ssl localhost 31790
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+Correct!
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+
+ex^C
+bandit16@bandit:~$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
+                                                                                                                   
+┌──(root㉿kali)-[/home/kali]
+└─# nano key         
+                                                                                                                   
+┌──(root㉿kali)-[/home/kali]
+└─# chmod 400 key         
+                                                                                                                   
+┌──(root㉿kali)-[/home/kali]
+└─# ssh -i key bandit17@bandit.labs.overthewire.org -p 2220     
+
+
+bandit17@bandit:~$ diff passwords.old passwods.new
+diff: passwods.new: No such file or directory
+bandit17@bandit:~$ diff passwords.old passwords.new
+42c42
+< pGozC8kOHLkBMOaL0ICPvLV1IjQ5F1VA
+---
+> x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+bandit17@bandit:~$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
+
+
+
+
+──(root㉿kali)-[/home/kali]
+└─# ssh -i bandit18_key -t bandit18@bandit.labs.overthewire.org -p 2220 /bin/sh
+Warning: Identity file bandit18_key not accessible: No such file or directory.
+                         _                     _ _ _   
+                        | |__   __ _ _ __   __| (_) |_ 
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_ 
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                       
+
+                      This is an OverTheWire game server. 
+            More information on http://www.overthewire.org/wargames
+
+backend: gibson-1
+bandit18@bandit.labs.overthewire.org's password: 
+Permission denied, please try again.
+bandit18@bandit.labs.overthewire.org's password: 
+$ ls
+readme
+$ cat readme
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+$ 
+
+
+
+andit19@bandit:~$ ls
+bandit20-do
+bandit19@bandit:~$ ./bandit20-do
+Run a command as another user.
+  Example: ./bandit20-do whoami
+bandit19@bandit:~$ ./bandit20-do ls
+bandit20-do
+bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+bandit19@bandit:~$ 
+
+
+bandit20@bandit:~$ cat /etc/bandit_pass/bandit20 | nc -l -p 12345
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+bandit20@bandit:~$ 
+bandit20@bandit:~$ ./suconnect 12345
+Read: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+Password matches, sending next password
+bandit20@bandit:~$ 
+
+bandit20@bandit:~$ cat /etc/bandit_pass/bandit20 | nc -l -p 12345
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+bandit20@bandit:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bandit21@bandit:~$ cat /etc/cron.d/
+cat: /etc/cron.d/: Is a directory
+bandit21@bandit:~$ ls
+bandit21@bandit:~$ ls /etc/cron.d/
+behemoth4_cleanup  cronjob_bandit22  cronjob_bandit24  leviathan5_cleanup    otw-tmp-dir
+clean_tmp          cronjob_bandit23  e2scrub_all       manpage3_resetpw_job  sysstat
+bandit21@bandit:~$ cat /etc/cron.d/cronjob_bandit22
+@reboot bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+* * * * * bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+bandit21@bandit:~$ cat /usr/bin/cronjob_bandit22.sh
+#!/bin/bash
+chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+bandit21@bandit:~$ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+bandit21@bandit:~$ 
+
+
+
+                                               
+bandit22@bandit:~$ cat /etc/cron.d/cronjob_bandit23
+@reboot bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+* * * * * bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+bandit22@bandit:~$ cat /usr/bin/cronjob_bandit23.sh
+#!/bin/bash
+
+myname=$(whoami)
+mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+
+echo "Copying passwordfile /etc/bandit_pass/$myname to /tmp/$mytarget"
+
+cat /etc/bandit_pass/$myname > /tmp/$mytarget
+bandit22@bandit:~$ echo I am user $myname | md5sum | cut -d ' ' -f 1
+7db97df393f40ad1691b6e1fb03d53eb
+bandit22@bandit:~$ cat /tmp/^C
+bandit22@bandit:~$ cat /tmp/7db97df393f40ad1691b6e1fb03d53eb
+bandit22@bandit:~$ cat /tmp/7db97df393f40ad1691b6e1fb03d53eb
+bandit22@bandit:~$ echo "I am user bandit23" | md5sum | cut -d ' ' -f 1
+8ca319486bfbbc3663ea0fbe81326349
+bandit22@bandit:~$ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+bandit22@bandit:~$ 
+
+
+
